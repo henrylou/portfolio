@@ -15,8 +15,8 @@ class About extends Component {
             <h2>About Me</h2>
             <p>I am Hengyu Lou, a master student in the department of Electrical & Computer Engineering at UCLA. 
             I am seeking 2019 new grad Software Engineer opportunities. I will graduate in March 2019. 
-            I have experience in both the backend such as Ruby on Rails, PHP, NodeJS/Express and frontend such as React/Redux and Bootstrap as well as RDBMS and NoSQL such as MySQL, PostgreSQL and MongoDB. 
-            Also, I have done projects in machine learning and big data processing, for example, spark, numpy and scikit-learn. 
+            I have experience in both the backend such as Ruby on Rails, PHP, NodeJS/Express and the frontend such as React/Redux and Bootstrap as well as RDBMS and NoSQL such as MySQL, PostgreSQL and MongoDB. 
+            Also, I have done projects in machine learning and big data such as spark, numpy and scikit-learn. 
             </p>
             <div className="row">
               <div className="columns contact-details">
