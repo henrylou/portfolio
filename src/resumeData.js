@@ -1,4 +1,4 @@
 resumeData = {
-  "imagebaseurl": "https://henry.github.io/",
+  "imagebaseurl": "https://henrylou.github.io/",
   "name": "Hengyu Lou"
 }
