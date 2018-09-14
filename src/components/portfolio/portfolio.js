@@ -18,49 +18,49 @@ class Portfolio extends Component {
                 link="#modal-01"
                 name="BLog Website Development" 
                 description="Share you ideas now!"
-                imagesrc="images/portfolio/photo-app.png" 
+                imagesrc="images/portfolio/blog.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-02"
                 name="Photo Management App Development" 
                 description="Share you ideas now!"
-                imagesrc="images/portfolio/photo-app.png" 
+                imagesrc="images/portfolio/photo.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-03"
                 name="Online Survey System Design" 
                 description="Share you ideas now!"
-                imagesrc="images/portfolio/photo-app.png" 
+                imagesrc="images/portfolio/survey.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-04"
                 name="Twitter Handle Interface Development" 
                 description="Share you ideas now!"
-                imagesrc="images/portfolio/photo-app.png" 
+                imagesrc="images/portfolio/twitter.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-05"
                 name="Movie Database System User Interface Development" 
                 description="Share you ideas now!"
-                imagesrc="images/portfolio/photo-app.png" 
+                imagesrc="images/portfolio/movie.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-06"
                 name="Portfolio Website Development" 
                 description="Share you ideas now!"
-                imagesrc="images/portfolio/photo-app.png" 
+                imagesrc="images/portfolio/portfolio.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-07"
                 name="Real-Time Hand Gesture Recognition System Design" 
                 description="Share you ideas now!"
-                imagesrc="images/portfolio/photo-app.png" 
+                imagesrc="images/portfolio/gesture.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-08"
                 name="Youtube User Interface Development" 
                 description="Share you ideas now!"
-                imagesrc="images/portfolio/photo-app.png" 
+                imagesrc="images/portfolio/youtube.png" 
               />{/* item end */}
 
             </div> {/* portfolio-wrapper end */}
