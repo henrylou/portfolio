@@ -128,9 +128,9 @@ class Portfolio extends Component {
             name="Alpha Blog"
             description="This is web blog app based on Ruby on Rails, Bootstrap and PostgreSQL. 
             I implemented authentication system from scratch and user representation with Gravater.
-            As a guest, you can browse through the articles, users and categories.
-            As a logged-in user, you can create, edit and delete your own articles and personal infromation.
-            As a logged-in admin, you can create category, edit and delete all articles or users."
+            A guest is allowed to browse through the articles, users and categories.
+            A logged in user is allowed to create, edit and delete your own articles and personal infromation.
+            A logged in admin is allowed to create category, edit and delete all articles or users."
             techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS"
             imagesrc="images/portfolio/modals/m-alpha-blog.png"
             website="https://alpha-blog-hengyu.herokuapp.com"
@@ -138,101 +138,78 @@ class Portfolio extends Component {
           />
           <PortfolioModal 
             modalId="modal-02"
-            name="Alpha Blog"
+            name="Photo Management App"
             description="This is web blog app based on Ruby on Rails, Bootstrap and PostgreSQL. 
-            I implemented authentication system from scratch and user representation with Gravater.
-            As a guest, you can browse through the articles, users and categories.
-            As a logged-in user, you can create, edit and delete your own articles and personal infromation.
-            As a logged-in admin, you can create category, edit and delete all articles or users."
-            techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS"
+            I implemented authentication system with devise and authentication confirmation through emails with SendGrid gem.            
+            As a guest, you can browse through the articles, users and categories."
+            
+            techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS, Amazon S3, devise gem, SendGrid gem, Carrierwave gem"
             imagesrc="images/portfolio/modals/m-alpha-blog.png"
-            github="https://github.com/henrylou/alpha-blog"
+            website="https://photo-management-hengyu.herokuapp.com"
+            github="https://github.com/henrylou/photo-app"
           />
-          <div id="modal-02" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt />
-            <div className="description-box">
-              <h4>Console</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-02 End */}
-          <div id="modal-03" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt />
-            <div className="description-box">
-              <h4>Judah</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-03 End */}
-          <div id="modal-04" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt />
-            <div className="description-box">
-              <h4>Into the Light</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Photography</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-04 End */}
-          <div id="modal-05" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt />
-            <div className="description-box">
-              <h4>Farmer Boy</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Webdesign</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-05 End */}
-          <div id="modal-06" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-portfolio.jpg" alt />
-            <div className="description-box">
-              <h4>Girl</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Photography</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-06 End */}
-          <div id="modal-07" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt />
-            <div className="description-box">
-              <h4>Origami</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Illustration</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>{/* modal-07 End */}
-          <div id="modal-08" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt />
-            <div className="description-box">
-              <h4>Retrocam</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Webdesign, Photography</span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>
-        </div>       
+          <PortfolioModal 
+            modalId="modal-03"
+            name="Emaily"
+            description="This web app is built for users to conduct online surveys by payment using NodeJS/Express, React and MongoDB.
+            I implemented Google OAuth 2.0 with PassportJS middleware and used Stripe API to handle online payment.
+            I applied Mongoose to create surveys and ccess MongoDB. SendGrid API is used to send surveys through emails."
+            techstack="NodeJS, Express, React, Redux, MongoDB, JavaScript, HTML, CSS, Mongoose PassportJS, Stripe API, SendGrid API"
+            imagesrc="images/portfolio/modals/m-alpha-blog.png"
+            website="https://email-survey-hengyu.herokuapp.com"
+            github="https://github.com/henrylou/email-survey"
+          />
+          <PortfolioModal 
+            modalId="modal-04"
+            name="Twitter Handle Interface"
+            description="This is a web interface that takes a twitter handle and displays the user’s 25 most recent tweets using Ruby on Rails, Bootstrap and Twitter API.
+            A Twitter handle is the term for someone’s account name on Twitter. For example, LeBron James' Twitter handle is @KingJames. 
+            When you are on a Twitter page, you can find the Twitter handle listed two places: 1. In the URL 2. Underneath your profile photo.
+            As for this interface, you should type in KingJames instead of @KingJames." 
+            techstack="Ruby on Rails, Bootstrap, JavaScript, HTML, CSS, Twitter API"
+            imagesrc="images/portfolio/modals/m-twitter-interface.png"
+            website="https://recent-tweets-hengyu.herokuapp.com"
+            github="https://github.com/henrylou/recent-tweets-of-twitter-handle"
+          />
+          <PortfolioModal 
+            modalId="modal-05"
+            name="Movie Databse System"
+            description="This web app is based on LAMP stack (Linux, Apache HTTP server, MySQL, PHP). 
+            A user is allowed add directors or actors, link movies to actors and add comments to movies. 
+            In addition, a user can type in keywords to search for relevant movies, actors and directors."
+            techstack="PHP, MySQL, JavaScript, HTML, CSS"
+            imagesrc="images/portfolio/modals/m-alpha-blog.png"
+            github="https://github.com/henrylou/movie-database-system"
+          />
+          <PortfolioModal 
+            modalId="modal-06"
+            name="Portfolio"
+            description="This is my personal website based on React."            
+            techstack="React, JavaScript, HTML, CSS"
+            imagesrc="images/portfolio/modals/m-portfolio.png"
+            website="https://henrylou.github.io/portfolio"
+            github="https://github.com/henrylou/portfolio"          
+          />
+          <PortfolioModal 
+            modalId="modal-07"
+            name="Real-Time Hand Gesture Recognition System"
+            description="This app recognizes static and dynamic hand gesture using Java and OpenCV. 
+            I applied K-curvature and convex hull algorithms to detect fingertips and used Kalman filter to track them
+            Hand gestures are recognized through the number of fingertips, the positions of fingertips and the connection among fingertips"            
+            techstack="Java, OpenCV"
+            imagesrc="images/portfolio/modals/m-alpha-blog.png"
+            github="https://github.com/henrylou/gesture-recognition"
+          />
+          <PortfolioModal 
+            modalId="modal-08"
+            name="Youtube Interface"
+            description="To be continued"            
+            techstack="React, JavaScript, HTML, CSS"
+            imagesrc="images/portfolio/modals/m-alpha-blog.png"
+            //website="https://alpha-blog-hengyu.herokuapp.com"
+            //github="https://github.com/henrylou/alpha-blog"
+          />
+        </div>
       </section> 
     );
   }
