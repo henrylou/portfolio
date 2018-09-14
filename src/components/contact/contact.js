@@ -58,13 +58,13 @@ class Contact extends Component {
             <div className="widget widget_contact">
               <h4>Address and Phone</h4>
               <p className="address">
-                Jonathan Doe<br />
-                1600 Amphitheatre Parkway <br />
-                Mountain View, CA 94043 US<br />
-                <span>(123) 456-7890</span>
+                Hengyu Lou<br />
+                825 Weyburn Terrace<br />
+                Los Angeles, CA 90024, US<br />
+                <span>(408) 306-9383</span>
               </p>
             </div>
-            <div className="widget widget_tweets">
+            {/*<div className="widget widget_tweets">
               <h4 className="widget-title">Latest Tweets</h4>
               <ul id="twitter">
                 <li>
@@ -84,7 +84,7 @@ class Contact extends Component {
                   <b><a href="#">3 Days Ago</a></b>
                 </li>
               </ul>
-            </div>
+            </div>*/}
           </aside>
         </div>
       </section>
