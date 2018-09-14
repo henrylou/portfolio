@@ -20,105 +20,49 @@ class Portfolio extends Component {
                 description="Share you ideas now!"
                 imagesrc="images/portfolio/photo-app.png" 
               />{/* item end */}
+              <PortfolioItem 
+                link="#modal-02"
+                name="Photo Management App Development" 
+                description="Share you ideas now!"
+                imagesrc="images/portfolio/photo-app.png" 
+              />{/* item end */}
+              <PortfolioItem 
+                link="#modal-03"
+                name="Online Survey System Design" 
+                description="Share you ideas now!"
+                imagesrc="images/portfolio/photo-app.png" 
+              />{/* item end */}
+              <PortfolioItem 
+                link="#modal-04"
+                name="Twitter Handle Interface Development" 
+                description="Share you ideas now!"
+                imagesrc="images/portfolio/photo-app.png" 
+              />{/* item end */}
+              <PortfolioItem 
+                link="#modal-05"
+                name="Movie Database System User Interface Development" 
+                description="Share you ideas now!"
+                imagesrc="images/portfolio/photo-app.png" 
+              />{/* item end */}
+              <PortfolioItem 
+                link="#modal-06"
+                name="Portfolio Website Development" 
+                description="Share you ideas now!"
+                imagesrc="images/portfolio/photo-app.png" 
+              />{/* item end */}
+              <PortfolioItem 
+                link="#modal-07"
+                name="Real-Time Hand Gesture Recognition System Design" 
+                description="Share you ideas now!"
+                imagesrc="images/portfolio/photo-app.png" 
+              />{/* item end */}
+              <PortfolioItem 
+                link="#modal-08"
+                name="Youtube User Interface Development" 
+                description="Share you ideas now!"
+                imagesrc="images/portfolio/photo-app.png" 
+              />{/* item end */}
 
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-02" title>
-                    <img alt src="images/portfolio/console.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Photo Management App Development</h5>
-                        <p></p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-03" title>
-                    <img alt src="images/portfolio/judah.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Online Survey System Design</h5>
-                        <p>Webdesign</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-04" title>
-                    <img alt src="images/portfolio/into-the-light.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Twitter Handle Interface Development</h5>
-                        <p>Photography</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-05" title>
-                    <img alt src="images/portfolio/farmerboy.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Movie Database System User Interface Development</h5>
-                        <p>Branding</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-06" title>
-                    <img alt src="images/portfolio/girl.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Portfolio Website Development</h5>
-                        <p>Photography</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-07" title>
-                    <img alt src="images/portfolio/origami.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Real-Time Hand Gesture Recognition System Design</h5>
-                        <p>Illustrration</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div> {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-08" title>
-                    <img alt src="images/portfolio/retrocam.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Youtube User Interface Development</h5>
-                        <p>Web Development</p>
-                      </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
-              </div>  {/* item end */}
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
           {/* Modal Popup

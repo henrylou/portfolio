@@ -4,12 +4,12 @@ class PortfolioModal extends Component {
   render() {
     let website;
     if (this.props.website != null) {
-      website = <a href={this.props.website}>Website </a>
+      website = <a href={this.props.website}>Website</a>
     } 
 
     return (
       <div id={this.props.modalId} className="popup-modal mfp-hide">
-        <img className="scale-with-grid" src={this.props.imagesrc} alt />
+        <a href={this.props.website}><img className="scale-with-grid" src={this.props.imagesrc} alt /></a>
         <div className="description-box">
           <h4>{this.props.name}</h4>
           <p>{this.props.description}</p>
