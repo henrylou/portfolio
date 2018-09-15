@@ -11,55 +11,59 @@ class Portfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Projects.</h1>
+            <h1>
+              Check Out My Projects.<br />         
+              Please click the icons to see the details.<br />
+              You will see the introduction, deployed website and github code.
+            </h1>
             {/* portfolio-wrapper */}
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <PortfolioItem 
                 link="#modal-01"
                 name="BLog Website Development" 
-                description="Share you ideas now!"
+                description="Ruby on Rails, Bootstrap, PostgreSQL"
                 imagesrc="images/portfolio/blog.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-02"
                 name="Photo Management App Development" 
-                description="Share you ideas now!"
+                description="Ruby on Rails, Bootstrap, PostgreSQL"
                 imagesrc="images/portfolio/photo.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-03"
                 name="Online Survey System Design" 
-                description="Share you ideas now!"
+                description="NodeJS/Express, React, MongoDB"
                 imagesrc="images/portfolio/survey.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-04"
                 name="Twitter Handle Interface Development" 
-                description="Share you ideas now!"
+                description="Ruby on Rails, Bootstrap, Twitter API"
                 imagesrc="images/portfolio/twitter.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-05"
                 name="Movie Database System User Interface Development" 
-                description="Share you ideas now!"
+                description="PHP"
                 imagesrc="images/portfolio/movie.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-06"
                 name="Portfolio Website Development" 
-                description="Share you ideas now!"
+                description="React, JavaScript"
                 imagesrc="images/portfolio/portfolio.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-07"
                 name="Real-Time Hand Gesture Recognition System Design" 
-                description="Share you ideas now!"
+                description="Java, OpenCV"
                 imagesrc="images/portfolio/gesture.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-08"
                 name="Youtube User Interface Development" 
-                description="Share you ideas now!"
+                description="React, JavaScript"
                 imagesrc="images/portfolio/youtube.png" 
               />{/* item end */}
 
@@ -122,7 +126,7 @@ class Portfolio extends Component {
             A user is allowed add directors or actors, link movies to actors and add comments to movies. 
             In addition, a user can type in keywords to search for relevant movies, actors and directors."
             techstack="PHP, MySQL, JavaScript, HTML, CSS"
-            imagesrc="images/portfolio/modals/m-alpha-blog.png"
+            imagesrc="images/portfolio/modals/"
             github="https://github.com/henrylou/movie-database-system"
           />
           <PortfolioModal 
@@ -141,7 +145,7 @@ class Portfolio extends Component {
             I applied K-curvature and convex hull algorithms to detect fingertips and used Kalman filter to track them
             Hand gestures are recognized through the number of fingertips, the positions of fingertips and the connection among fingertips"            
             techstack="Java, OpenCV"
-            imagesrc="images/portfolio/modals/m-alpha-blog.png"
+            imagesrc="images/portfolio/modals/"
             github="https://github.com/henrylou/gesture-recognition"
           />
           <PortfolioModal 
