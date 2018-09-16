@@ -92,7 +92,7 @@ class Portfolio extends Component {
             As a guest, you can browse through the articles, users and categories."
             
             techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS, Amazon S3, devise gem, SendGrid gem, Carrierwave gem"
-            imagesrc="images/portfolio/modals/m-alpha-blog.png"
+            imagesrc="images/portfolio/modals/"
             website="https://photo-management-hengyu.herokuapp.com"
             github="https://github.com/henrylou/photo-app"
           />
@@ -103,7 +103,7 @@ class Portfolio extends Component {
             I implemented Google OAuth 2.0 with PassportJS middleware and used Stripe API to handle online payment.
             I applied Mongoose to create surveys and ccess MongoDB. SendGrid API is used to send surveys through emails."
             techstack="NodeJS, Express, React, Redux, MongoDB, JavaScript, HTML, CSS, Mongoose PassportJS, Stripe API, SendGrid API"
-            imagesrc="images/portfolio/modals/m-alpha-blog.png"
+            imagesrc="images/portfolio/modals/"
             website="https://email-survey-hengyu.herokuapp.com"
             github="https://github.com/henrylou/email-survey"
           />
@@ -153,7 +153,7 @@ class Portfolio extends Component {
             name="Youtube Interface"
             description="To be continued"            
             techstack="React, JavaScript, HTML, CSS"
-            imagesrc="images/portfolio/modals/m-alpha-blog.png"
+            imagesrc="images/portfolio/modals/"
             //website="https://alpha-blog-hengyu.herokuapp.com"
             //github="https://github.com/henrylou/alpha-blog"
           />
