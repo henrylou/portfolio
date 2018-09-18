@@ -45,7 +45,7 @@ class Portfolio extends Component {
               <PortfolioItem 
                 link="#modal-05"
                 name="Movie Database System User Interface Development" 
-                description="PHP"
+                description="PHP, MySQL, HTML"
                 imagesrc="images/portfolio/movie.png" 
               />{/* item end */}
               <PortfolioItem 

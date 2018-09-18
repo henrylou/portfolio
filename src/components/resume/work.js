@@ -14,7 +14,7 @@ class Work extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>OrderInsite</h3>
+                <a href="https://www.orderinsite.com"><h3>OrderInsite</h3></a>
                 <p className="info">Software Engineer Intern <span>•</span> <em className="date">Sep. 2018 - Present</em></p>    
                 <ul>
                   <li>• Develop new features for inventory management products</li>
@@ -25,7 +25,7 @@ class Work extends Component {
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Endorsify</h3>
+                <a href="https://endorsify.co"><h3>Endorsify</h3></a>
                 <p className="info">Software Engineer Intern <span>•</span> <em className="date">Jun. 2018 - Dep. 2018</em></p>
                 <ul>
                   <li>• Built PHP artisan commands of Laravel and scheduled them with cron to automatically update MySQL database with Eloquent ORM</li>
