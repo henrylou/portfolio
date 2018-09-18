@@ -87,12 +87,13 @@ class Portfolio extends Component {
           <PortfolioModal 
             modalId="modal-02"
             name="Photo Management App"
-            description="This is web blog app based on Ruby on Rails, Bootstrap and PostgreSQL. 
+            description="This is a photo management app based on Ruby on Rails, Bootstrap and PostgreSQL. 
             I implemented authentication system with devise and authentication confirmation through emails with SendGrid gem.            
-            As a guest, you can browse through the articles, users and categories."
+            I applied Stripe gem to deal with online payment and used Carrierwave gem and Amazon S3 to upload and store images.
+            You can use a Stripe test credit card to register to try the app."
             
             techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS, Amazon S3, devise gem, SendGrid gem, Carrierwave gem"
-            imagesrc="images/portfolio/modals/"
+            imagesrc="images/portfolio/modals/m-photo-app.png"
             website="https://photo-management-hengyu.herokuapp.com"
             github="https://github.com/henrylou/photo-app"
           />
@@ -102,7 +103,7 @@ class Portfolio extends Component {
             description="This web app is built for users to conduct online surveys by payment using NodeJS/Express, React and MongoDB.
             I implemented Google OAuth 2.0 with PassportJS middleware and used Stripe API to handle online payment.
             I applied Mongoose to create surveys and ccess MongoDB. SendGrid API is used to send surveys through emails."
-            techstack="NodeJS, Express, React, Redux, MongoDB, JavaScript, HTML, CSS, Mongoose PassportJS, Stripe API, SendGrid API"
+            techstack="NodeJS, Express, React, Redux, MongoDB, JavaScript, HTML, CSS, Mongoose, PassportJS, Stripe API, SendGrid API"
             imagesrc="images/portfolio/modals/"
             website="https://email-survey-hengyu.herokuapp.com"
             github="https://github.com/henrylou/email-survey"
