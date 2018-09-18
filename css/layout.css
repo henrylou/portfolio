@@ -261,7 +261,7 @@ ul#nav li.current a { /* color: #F06000; */ color: #11ABB0; }
    padding-bottom: 6px;
 }
 #resume h3 {
-   font: 25px/30px 'opensans-bold', sans-serif;
+   font: 26px/30px 'opensans-bold', sans-serif;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -287,12 +287,16 @@ ul#nav li.current a { /* color: #F06000; */ color: #11ABB0; }
    margin-top: 6px;
 }
 
+#resume li {
+  line-height:160%
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
 
 .skillset {
-    width: 25%;
+  width: 25%;
 }
 
 .bars {
@@ -524,14 +528,14 @@ ul#nav li.current a { /* color: #F06000; */ color: #11ABB0; }
 
 /* popup modal */
 .popup-modal {
-	max-width: 550px;
+	max-width: 580px;
 	background: #fff;
 	position: relative;
 	margin: 0 auto;
 }
 .popup-modal .description-box { padding: 12px 36px 18px 36px; }
 .popup-modal .description-box h4 {
-  font: 18px/28px 'opensans-bold', sans-serif;
+  font: 22px/28px 'opensans-bold', sans-serif;
   margin-bottom: 12px;
   color: #111;
 }
