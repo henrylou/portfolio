@@ -92,7 +92,7 @@ class Portfolio extends Component {
             I applied Stripe gem to deal with online payment and used Carrierwave gem and Amazon S3 to upload and store images.
             You can use a Stripe test credit card to register to try the app."
             
-            techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS, Amazon S3, devise gem, SendGrid gem, Carrierwave gem"
+            techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS, Amazon S3, Stripe gem, devise gem, SendGrid gem, Carrierwave gem"
             imagesrc="images/portfolio/modals/m-photo-app.png"
             website="https://photo-management-hengyu.herokuapp.com"
             github="https://github.com/henrylou/photo-app"
@@ -127,7 +127,8 @@ class Portfolio extends Component {
             A user is allowed add directors or actors, link movies to actors and add comments to movies. 
             In addition, a user can type in keywords to search for relevant movies, actors and directors."
             techstack="PHP, MySQL, JavaScript, HTML, CSS"
-            imagesrc="images/portfolio/modals/"
+            imagesrc="images/portfolio/modals/m-movie-database.png"
+            website="https://youtu.be/H2K3kAAHiJ8"
             github="https://github.com/henrylou/movie-database-system"
           />
           <PortfolioModal 
@@ -143,8 +144,8 @@ class Portfolio extends Component {
             modalId="modal-07"
             name="Real-Time Hand Gesture Recognition System"
             description="This app recognizes static and dynamic hand gesture using Java and OpenCV. 
-            I applied K-curvature and convex hull algorithms to detect fingertips and used Kalman filter to track them
-            Hand gestures are recognized through the number of fingertips, the positions of fingertips and the connection among fingertips"            
+            I applied K-curvature and convex hull algorithms to detect fingertips and used Kalman filter to track them.
+            Hand gestures are recognized through the number of fingertips, the positions of fingertips and the connection among fingertips."            
             techstack="Java, OpenCV"
             imagesrc="images/portfolio/modals/"
             github="https://github.com/henrylou/gesture-recognition"
