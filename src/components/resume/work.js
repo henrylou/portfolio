@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 class Work extends Component {  
   render() {
     return (
-      <section id="word"> 
+      <section id="work"> 
         <div className="row work">
           <div className="three columns header-col">
             <h1><span>Work</span></h1>
