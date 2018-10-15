@@ -13,38 +13,45 @@ class Portfolio extends Component {
           <div className="twelve columns collapsed">
             <h1>
               Check Out My Projects.<br />         
-              Please click the icons to see the details.<br />
+              Please click on the icons to see the details.<br />
               You will see the introduction, deployed website and github code.
             </h1>
             {/* portfolio-wrapper */}
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <PortfolioItem 
                 link="#modal-01"
-                name="BLog Website Development" 
+                name="Blogging Platform" 
                 description="Ruby on Rails, Bootstrap, PostgreSQL"
                 imagesrc="images/portfolio/blog.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-02"
-                name="Photo Management App Development" 
+                name="Instagram Clone" 
                 description="Ruby on Rails, Bootstrap, PostgreSQL"
                 imagesrc="images/portfolio/photo.png" 
               />{/* item end */}
-              <PortfolioItem 
+              {/*<PortfolioItem 
                 link="#modal-03"
                 name="Online Survey System Design" 
                 description="NodeJS/Express, React, MongoDB"
                 imagesrc="images/portfolio/survey.png" 
+              /> item end */}
+              <PortfolioItem 
+                link="#modal-03"
+                name="TODO List" 
+                description="Ruby on Rails, Bootstrap, Twitter API"
+                imagesrc="images/portfolio/todo.png" 
               />{/* item end */}
+
               <PortfolioItem 
                 link="#modal-04"
-                name="Twitter Handle Interface Development" 
+                name="Tweet History By Handle" 
                 description="Ruby on Rails, Bootstrap, Twitter API"
                 imagesrc="images/portfolio/twitter.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-05"
-                name="Movie Database System User Interface Development" 
+                name="IMDB Clone" 
                 description="PHP, MySQL, HTML"
                 imagesrc="images/portfolio/movie.png" 
               />{/* item end */}
@@ -73,31 +80,31 @@ class Portfolio extends Component {
 	      --------------------------------------------------------------- */}
           <PortfolioModal 
             modalId="modal-01"
-            name="Alpha Blog"
+            name="Blogging Platform"
             description="This is web blog app based on Ruby on Rails, Bootstrap and PostgreSQL. 
             I implemented authentication system from scratch and user representation with Gravater.
             A guest is allowed to browse through the articles, users and categories.
             A logged in user is allowed to create, edit and delete your own articles and personal infromation.
             A logged in admin is allowed to create category, edit and delete all articles or users."
             techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS"
-            imagesrc="images/portfolio/modals/m-alpha-blog.png"
-            website="https://alpha-blog-hengyu.herokuapp.com"
+            imagesrc="images/portfolio/modals/m-blog.png"
+            website="https://blogging-online.herokuapp.com"
             github="https://github.com/henrylou/alpha-blog"
           />
           <PortfolioModal 
             modalId="modal-02"
-            name="Photo Management App"
+            name="Instagram Clone"
             description="This is a photo management app based on Ruby on Rails, Bootstrap and PostgreSQL. 
             I implemented authentication system with devise and authentication confirmation through emails with SendGrid gem.            
             I applied Stripe gem to deal with online payment and used Carrierwave gem and Amazon S3 to upload and store images.
-            You can use a Stripe test credit card to register to try the app."
+            You can use a Stripe test credit card to register to try this app."
             
             techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS, Amazon S3, Stripe gem, devise gem, SendGrid gem, Carrierwave gem"
             imagesrc="images/portfolio/modals/m-photo-app.png"
-            website="https://photo-management-hengyu.herokuapp.com"
+            website="https://instagram-clone-photo-app.herokuapp.com"            
             github="https://github.com/henrylou/photo-app"
           />
-          <PortfolioModal 
+          {/*<PortfolioModal 
             modalId="modal-03"
             name="Emaily"
             description="This web app is built for users to conduct online surveys by payment using NodeJS/Express, React and MongoDB.
@@ -107,22 +114,32 @@ class Portfolio extends Component {
             imagesrc="images/portfolio/modals/"
             website="https://email-survey-hengyu.herokuapp.com"
             github="https://github.com/henrylou/email-survey"
+          />*/}
+          <PortfolioModal 
+            modalId="modal-03"
+            name="TODO List"
+            description="This app is built for personal usage to manage daily todo items online. 
+            Of course, if you are interested, please register to try this app."            
+            techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS, devise gem"
+            imagesrc="images/portfolio/modals/m-todo.png"
+            website="https://time-master-app.herokuapp.com"
+            github="https://github.com/henrylou/todo-list-app"
           />
           <PortfolioModal 
             modalId="modal-04"
-            name="Twitter Handle Interface"
+            name="Tweet History By Handle"
             description="This is a web interface that takes a twitter handle and displays the user’s 25 most recent tweets using Ruby on Rails, Bootstrap and Twitter API.
             A Twitter handle is the term for someone’s account name on Twitter. For example, LeBron James' Twitter handle is @KingJames. 
             When you are on a Twitter page, you can find the Twitter handle listed two places: 1. In the URL 2. Underneath your profile photo.
             As for this interface, you should type in KingJames instead of @KingJames." 
             techstack="Ruby on Rails, Bootstrap, JavaScript, HTML, CSS, Twitter API"
-            imagesrc="images/portfolio/modals/m-twitter-interface.png"
-            website="https://recent-tweets-hengyu.herokuapp.com"
+            imagesrc="images/portfolio/modals/m-twitter.png"
+            website="https://tweet-history-by-handle.herokuapp.com"            
             github="https://github.com/henrylou/recent-tweets-of-twitter-handle"
           />
           <PortfolioModal 
             modalId="modal-05"
-            name="Movie Databse System"
+            name="IMDB Clone"
             description="This web app is based on LAMP stack (Linux, Apache HTTP server, MySQL, PHP). 
             A user is allowed add directors or actors, link movies to actors and add comments to movies. 
             In addition, a user can type in keywords to search for relevant movies, actors and directors."
@@ -150,7 +167,7 @@ class Portfolio extends Component {
             imagesrc="images/portfolio/modals/"
             github="https://github.com/henrylou/gesture-recognition"
           />
-          <PortfolioModal 
+          {/*<PortfolioModal 
             modalId="modal-08"
             name="Youtube Interface"
             description="To be continued"            
@@ -158,7 +175,7 @@ class Portfolio extends Component {
             imagesrc="images/portfolio/modals/"
             //website="https://alpha-blog-hengyu.herokuapp.com"
             //github="https://github.com/henrylou/alpha-blog"
-          />
+          />*/}
         </div>
       </section> 
     );

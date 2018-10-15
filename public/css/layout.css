@@ -249,7 +249,7 @@ ul#nav li.current a { /* color: #F06000; */ color: #11ABB0; }
 }
 
 #resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a:hover, #resume a:focus { color: #313131; } 
 
 #work a, #work a:visited  { color: #fff; }
 #work a:hover, #work a:focus { color: #11ABB0; }
@@ -616,14 +616,14 @@ ul#nav li.current a { /* color: #F06000; */ color: #11ABB0; }
 }
 #call-to-action h1 span { display: none; }
 #call-to-action .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0ac";
+  font-family: 'FontAwesome';
+  content: "\f0ac";
 	padding-right: 10px;
 	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
+  line-height: 72px;
+  text-align: left;
+  float: left;
+  color: #fff;
 }
 #call-to-action .action {
    margin-top: 12px;
