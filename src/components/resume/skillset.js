@@ -12,9 +12,9 @@ class Skillset extends Component {
             <h1><span>Skills</span></h1>
           </div>
           <div className="nine columns main-col">
-            <p>
+            {/*<p>
               I have experience in both the backend and the frontend. My skillset is shown below.
-            </p>
+            </p>*/}
             {/*<div className="bars">
               <ul className="skills">
                 <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
@@ -49,7 +49,7 @@ class Skillset extends Component {
               <ul>
                 <li><i className="fas fa-database" /> MySQL</li>
                 <li><i className="fab fa-envira" /> MongoDB</li>
-                <li><i className="fas fa-star" /> Spark</li>
+                <li><i className="fas fa-star" /> MapReduce</li>
                 <li><i className="fab fa-git" /> Git</li>
                 <li><i className="fab fa-npm" /> NPM</li>
               </ul>

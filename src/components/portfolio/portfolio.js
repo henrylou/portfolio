@@ -74,12 +74,13 @@ class Portfolio extends Component {
                 imagesrc="images/portfolio/text-entry.png" 
               />
 
-              {/*<PortfolioItem 
-                link="#modal-07"
+              <PortfolioItem 
+                link="#modal-09"
                 name="Real-Time Hand Gesture Recognition System Design" 
                 description="Java, OpenCV"
                 imagesrc="images/portfolio/gesture.png" 
               />
+              {/*}
               <PortfolioItem 
                 link="#modal-08"
                 name="Youtube User Interface Development" 
@@ -154,7 +155,7 @@ class Portfolio extends Component {
             modalId="modal-05"
             name="IMDB Clone"
             description="This web app is based on LAMP stack (Linux, Apache HTTP server, MySQL, PHP). 
-            A user is allowed add directors or actors, link movies to actors and add comments to movies. 
+            A user is allowed to add directors or actors, link movies to actors and add comments to movies. 
             In addition, a user can type in keywords to search for relevant movies, actors and directors."
             techstack="PHP, MySQL, JavaScript, HTML, CSS"
             imagesrc="images/portfolio/modals/m-movie-database.png"
@@ -192,16 +193,16 @@ class Portfolio extends Component {
             imagesrc="images/portfolio/modals/m-text-input.jpg"
             github="https://github.com/henrylou/text-entry"
           />
-          {/*<PortfolioModal 
-            modalId="modal-07"
+          <PortfolioModal 
+            modalId="modal-09"
             name="Real-Time Hand Gesture Recognition System"
             description="This app recognizes static and dynamic hand gesture using Java and OpenCV. 
             I applied K-curvature and convex hull algorithms to detect fingertips and used Kalman filter to track them.
             Hand gestures are recognized through the number of fingertips, the positions of fingertips and the connection among fingertips."            
             techstack="Java, OpenCV"
-            imagesrc="images/portfolio/modals/"
+            imagesrc="images/portfolio/modals/m-gesture.jpg"
             github="https://github.com/henrylou/gesture-recognition"
-          />*/}
+          />
 
           {/*<PortfolioModal 
             modalId="modal-08"
