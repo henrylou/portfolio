@@ -15,23 +15,13 @@ class Work extends Component {
             <div className="row item">
               <div className="twelve columns">
                 <a href="https://www.orderinsite.com"><h3>OrderInsite</h3></a>
-                <p className="info">Software Engineer Intern <span>•</span> <em className="date">Sep. 2018 - Present</em></p>    
-                <ul>
-                  <li>• Develop new features for inventory management products</li>
-                  <li>• Create documentations and presentations for sales and operations</li>
-                  <li>• Attend weekly working group staff meetings</li>
-                </ul>
+                <p className="info">Software Engineering Intern <span>•</span> <em className="date">Sep. 2018 - Present</em></p>    
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
                 <a href="https://endorsify.co"><h3>Endorsify</h3></a>
-                <p className="info">Software Engineer Intern <span>•</span> <em className="date">Jun. 2018 - Dep. 2018</em></p>
-                <ul>
-                  <li>• Built PHP artisan commands of Laravel and scheduled them with cron to automatically update MySQL database with Eloquent ORM</li>
-                  <li>• Integrated Elasticsearch index with MySQL which allow admins to perform CRUD operations in them synchronously</li>
-                  <li>• Created analytic web pages with Google Analytics API and ChartJS using PHP, JavaScript and HTML to help decision makers change strategies</li>
-                </ul>
+                <p className="info">Software Engineering Intern <span>•</span> <em className="date">Jun. 2018 - Sep. 2018</em></p>
               </div>
             </div> {/* item end */}
           </div> {/* main-col end */}

@@ -14,7 +14,7 @@ class Portfolio extends Component {
             <h1>
               Check Out My Projects.<br />         
               Please click on the icons to see the details.<br />
-              You will see the introduction, deployed website and github code.
+              You will see the demo website, descriptions and source codes on github.
             </h1>
             {/* portfolio-wrapper */}
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
@@ -57,22 +57,35 @@ class Portfolio extends Component {
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-06"
-                name="Portfolio Website Development" 
+                name="Portfolio" 
                 description="React, JavaScript"
                 imagesrc="images/portfolio/portfolio.png" 
               />{/* item end */}
               <PortfolioItem 
                 link="#modal-07"
+                name="Autocomplete Interface" 
+                description="Java, Hadoop, MapReduce, MySQL, jQuery, PHP, AJAX, Docker"
+                imagesrc="images/portfolio/autocomplete.png" 
+              />
+              <PortfolioItem 
+                link="#modal-08"
+                name="Text Entry Technique" 
+                description="Java, Android"
+                imagesrc="images/portfolio/text-entry.png" 
+              />
+
+              {/*<PortfolioItem 
+                link="#modal-07"
                 name="Real-Time Hand Gesture Recognition System Design" 
                 description="Java, OpenCV"
                 imagesrc="images/portfolio/gesture.png" 
-              />{/* item end */}
+              />
               <PortfolioItem 
                 link="#modal-08"
                 name="Youtube User Interface Development" 
                 description="React, JavaScript"
                 imagesrc="images/portfolio/youtube.png" 
-              />{/* item end */}
+              />*/}
 
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}
@@ -100,7 +113,7 @@ class Portfolio extends Component {
             You can use a Stripe test credit card to register to try this app."
             
             techstack="Ruby on Rails, Bootstrap, PostgreSQL, JavaScript, HTML, CSS, Amazon S3, Stripe gem, devise gem, SendGrid gem, Carrierwave gem"
-            imagesrc="images/portfolio/modals/m-photo-app.png"
+            imagesrc="images/portfolio/modals/m-instagram-clone.png"
             website="https://instagram-clone-photo-app.herokuapp.com"            
             github="https://github.com/henrylou/photo-app"
           />
@@ -159,6 +172,28 @@ class Portfolio extends Component {
           />
           <PortfolioModal 
             modalId="modal-07"
+            name="Autocomplete Interface"
+            description="This interface predicts the rest of words a user is typing based on Java, Hadoop, MapReduce, MySQL, jQuery, PHP, AJAX, Docker. 
+            First, I constructed a N-Gram library, built a language model from the Wiki dataset by MapReduce and stored data in MySQL. 
+            Then, I Applied jQuery, PHP and Ajax to build an interface which retrieves data from MySQL database to achieve real-time autocomplete."            
+            techstack="Java, Hadoop, MapReduce, MySQL, jQuery, PHP, AJAX, Docker"
+            imagesrc="images/portfolio/modals/m-autocomplete.png"
+            website="https://auto-complete-interface.herokuapp.com"
+            github="https://github.com/henrylou/autocomplete"
+          />
+          <PortfolioModal 
+            modalId="modal-08"
+            name="Text Entry Technique"
+            description="The text entry technique, Swipeboard, leverages our spatial memory of a QWER keyboard to learn, and eventually master, a shorthand, eyes-free text entry method. 
+            Characters are entered within two swipes. 
+            The first swipe specifies the region where the character is located. 
+            The second swipe specifies the character within that region."            
+            techstack="Java, Android"
+            imagesrc="images/portfolio/modals/m-text-input.jpg"
+            github="https://github.com/henrylou/text-entry"
+          />
+          {/*<PortfolioModal 
+            modalId="modal-07"
             name="Real-Time Hand Gesture Recognition System"
             description="This app recognizes static and dynamic hand gesture using Java and OpenCV. 
             I applied K-curvature and convex hull algorithms to detect fingertips and used Kalman filter to track them.
@@ -166,7 +201,8 @@ class Portfolio extends Component {
             techstack="Java, OpenCV"
             imagesrc="images/portfolio/modals/"
             github="https://github.com/henrylou/gesture-recognition"
-          />
+          />*/}
+
           {/*<PortfolioModal 
             modalId="modal-08"
             name="Youtube Interface"
