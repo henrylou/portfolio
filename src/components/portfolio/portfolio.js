@@ -191,6 +191,7 @@ class Portfolio extends Component {
             The second swipe specifies the character within that region."            
             techstack="Java, Android"
             imagesrc="images/portfolio/modals/m-text-input.jpg"
+            website="https://youtu.be/U7OhX5E8kxo"
             github="https://github.com/henrylou/text-entry"
           />
           <PortfolioModal 
